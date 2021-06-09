@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      text: "",
+      preview: ""
+    }
+    this.handleChange = this.handleChange.bind(this);
+  }
+  render () {
+    return (
+        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'cente', width: '50%', marginLeft: 'auto', marginRight: 'auto'}}>
+          <textarea id="editor" onChange={this.handleChange} value={this.state.text} style={{backgroundColor: 'grey'}}>
+
+          </textarea >
+          <div id="preview" style={{backgroundColor: 'grey', width: '400px'}}>
+            <p>Hello</p>
+          </div>
+        </div>
+    );
+  }
 }
 
 export default App;
