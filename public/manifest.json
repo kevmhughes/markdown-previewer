@@ -8,9 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "icon128.png",
+      "src": "icon256.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "256x256"
     },
     {
       "src": "icon512.png",
