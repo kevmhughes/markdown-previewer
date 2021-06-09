@@ -1,5 +1,4 @@
-
-# Quote Machine
+# Markdown Previewer
 
 ### What is it?
 A responsive markdown editor created with React and Marked, a compiler for parsing markdown.
@@ -27,7 +26,7 @@ Optional Bonus (you do not need to make this test pass): My markdown previewer i
 
 # Screenshots 
 #### Desktop: 
-<img src="https://user-images.githubusercontent.com/48656356/121443911-b8543f00-c98e-11eb-94a3-ecb3f1cc7a78.png" width="700">
+<img src="https://user-images.githubusercontent.com/48656356/121443992-df127580-c98e-11eb-857e-7780528f505d.png" width="700">
 
 #### Mobile:
 <img src="https://user-images.githubusercontent.com/48656356/121443893-ad011380-c98e-11eb-9464-339381bca404.png" width="250">
