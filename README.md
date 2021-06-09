@@ -42,7 +42,7 @@ https://kevmhughes.github.io/markdown-previewer/
 # Development Environment
 * Node
 
-# Library
+# Libraries
 * Bootstrap
 * Marked
 
