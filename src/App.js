@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
+import marked from 'marked';
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "",
-      preview: ""
+
     }
-    this.handleChange = this.handleChange.bind(this);
   }
   render () {
     return (
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'cente', width: '50%', marginLeft: 'auto', marginRight: 'auto'}}>
-          <textarea id="editor" onChange={this.handleChange} value={this.state.text} style={{backgroundColor: 'grey'}}>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6">
+          <textarea id="editor" className="form-control" rows="35" />
 
-          </textarea >
-          <div id="preview" style={{backgroundColor: 'grey', width: '400px'}}>
+            <div id="preview">
             <p>Hello</p>
+            </div>
+            </div>
           </div>
         </div>
     );
