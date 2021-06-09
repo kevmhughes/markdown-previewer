@@ -1,3 +1,4 @@
+
 # Quote Machine
 
 ### What is it?
@@ -26,10 +27,10 @@ Optional Bonus (you do not need to make this test pass): My markdown previewer i
 
 # Screenshots 
 #### Desktop: 
-<img src="https://user-images.githubusercontent.com/48656356/121095283-5958c380-c7f0-11eb-8551-7538957180e3.png" width="700">
+<img src="https://user-images.githubusercontent.com/48656356/121443911-b8543f00-c98e-11eb-94a3-ecb3f1cc7a78.png" width="700">
 
 #### Mobile:
-<img src="https://user-images.githubusercontent.com/48656356/121095305-65dd1c00-c7f0-11eb-867f-e66a9956e4b8.png" width="250">
+<img src="https://user-images.githubusercontent.com/48656356/121443893-ad011380-c98e-11eb-9464-339381bca404.png" width="250">
                                                                                                                             
 
 # See Live App Here:
