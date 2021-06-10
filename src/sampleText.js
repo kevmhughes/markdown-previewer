@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 export const sampleText = `# Markdown Previewer
 
 ## Sub-headings
@@ -35,7 +36,4 @@ content 1 | content 2 | content 3
 
 1. there are also numbered lists, and you can embed images, too.
 ![React Logo w/ Text](https://commonmark.org/help/images/favicon.png)
-`
-
-
-
+`;
